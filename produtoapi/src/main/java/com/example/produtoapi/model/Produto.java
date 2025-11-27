@@ -56,10 +56,10 @@ public class Produto {
 
     public String toString(){
         return "Produto{" +
-                "id='" + id + '\'' +
-                ", nome='" + nome + '\'' +
-                ", descricao='" + descricao + '\'' +
-                ", preco='" + preco + '\'' +
+                "id='" + id + '\'' + ",\n" +
+                " nome='" + nome + '\'' + ",\n" +
+                " descricao='" + descricao + '\'' + ",\n" +
+                " preco='" + preco + '\'' + "\n" +
                 '}';
     }
 }
